@@ -1,11 +1,25 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": [ 
-    { "name": "typicode", "address": "massoom shah road" }
+  "CurrentOrders": [
+    {
+      "dateANDtime": {
+        "Date": "11-jan-2021",
+        "Time": "15:10:00"
+      },
+      "Item_info": {
+        "IcCode": 1,
+        "IcName": "a",
+        "Date": "10-jan-2021",
+        "Time": "15:10:00",
+        "Qty": "3",
+        "PaymentMethod": "jazz cash"
+      },
+      "UserInfo": {
+        "UserID": "123",
+        "User_addr": "House no.541, St. no. 4, Muslim Town, Masoom Shah Road, Multan, Pakistan",
+        "Uemail": "customer@gmail.com",
+        "Udata": "info"
+      },
+      "id": 1
+    }
   ]
 }
